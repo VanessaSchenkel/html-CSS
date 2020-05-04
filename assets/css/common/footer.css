@@ -1,0 +1,17 @@
+
+.footer {
+  width: 100%;
+  bottom: 0;
+  height: 205px;
+  background: white;
+  display: flex;
+  align-items: center;
+  z-index: 1;  
+}
+
+.copyright {
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 111.9%;
+  color: #383838;
+}

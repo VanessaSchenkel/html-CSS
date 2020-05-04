@@ -1,0 +1,492 @@
+* {
+    box-sizing: border-box;
+}
+
+.slogan {
+    font-family: Poppins;
+    font-size: 21px;
+    color: #ffffff;
+}
+
+.titulo {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 54px;
+    color: #ffffff;
+    padding-bottom: 15%;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0 auto;
+}
+
+.pg-principal-content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    color: #fff;
+}
+
+.pg-principal {
+    min-height: 100vh;
+    background-image: url("./assets/img/domenico-loia-hGV2TfOh0ns-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.pg-principal::before {
+    content: "";
+    background-color: rgba(15, 30, 80);
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.pagina-da-sessao {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.colunas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.sessao {
+    font-family: Poppins;
+    font-size: 18px;
+    color: #207ff4;
+}
+
+.titulo-azul {
+    color: #133e72;
+    margin: 0;
+    padding: 0;
+}
+
+.container-sobre {
+    min-height: 100%;
+}
+
+.sobre {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.sobre-colunas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre-content {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    color: #fff;
+}
+
+.sobre-nos {
+    font-family: Poppins;
+    font-size: 18px;
+    color: #207FF4;
+}
+
+.sobre-nos-texto {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    min-height: 30%;
+}
+
+.titulo-sobre {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 54px;
+    color: #133E72;
+    margin: 0;
+}
+
+.sobre-nos-slogan {
+    min-height: 30%;
+}
+
+.slogan-sobre {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #898989;
+    line-height: 207%;
+}
+
+.funcionalidades {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+.funcionalidades-content {
+    min-height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.funcionalidades-divisao {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.linha-funcionalidade {
+    min-height: 4px;
+    width: 200px;
+    background: rgba(19, 62, 114, 0.5);
+    position: absolute;
+    top: 20%;
+    left: 43%;
+}
+
+#tela {
+    position: relative;
+    bottom: 17px;
+    z-index: -1;
+}
+
+#fundo-da-tela {
+    position: relative;
+    bottom: 46.5%;
+    left: 10.5%;
+}
+
+.titulo-secao-funcionalidades {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: #133E72;
+    margin: 10%;
+    position: relative;
+    right: 25%;
+}
+
+.especificacoes {
+    padding-top: 20%;
+}
+
+.retangulo-funcionalidade {
+    background: #EDF2F6;
+    border-radius: 3px;
+    padding: 5%;
+    display: flex;
+}
+
+.divisao-texto {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.titulo-funcionalidade {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #133E72;
+    margin: 0;
+}
+
+.texto-funcionalidade {
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.linha {
+    height: 4px;
+    width: 230px;
+    background: rgba(19, 62, 114, 0.5);
+    margin: 0;
+}
+
+.nossos-servicos {
+    min-height: 100vh;
+    background-image: url("./assets/img/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nossos-servicos::before {
+    content: "";
+    background-color: #2F2F2F;
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.solucoes {
+    font-family: Poppins;
+    font-size: 18px;
+    color: white;
+}
+
+.titulo-nossos-servicos {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 54px;
+    color: white;
+    margin: 0;
+}
+
+.linha-branca {
+    background-color: white;
+}
+
+.texto-servicos {
+    color: white;
+}
+
+.solucoes-content {
+    width: 43%;
+}
+
+.depoimentos {
+    min-height: 100vh;
+    display: flex;
+    background-color: #EDF2F6;
+    align-items: center;
+}
+
+.depoimentos-colunas {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.depoimentos-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.retangulo {
+    background-color: white;
+    position: relative;
+    box-shadow: 0px 4px 34px rgba(8, 53, 120, 0.05);
+    border-radius: 3px;
+    width: 48%;
+}
+
+.texto-depoimento {
+    padding: 0 5%;
+    color: #383838;
+}
+
+.foto-depoimento {
+    position: relative;
+    top: 40px;
+    left: 30px;
+    border-radius: 5%;
+}
+
+.nome {
+    color: #133E72;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    position: absolute;
+    left: 25%;
+    bottom: 67%;
+}
+
+.depoimentos-linha {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data {
+    color: #207FF4;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Poppins';
+    position: absolute;
+    left: 25%;
+    bottom: 60%;
+}
+
+.sessao-contato {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #EDF2F6;
+}
+
+.titulo-contato {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 54px;
+    color: #133E72;
+    margin: 0;
+}
+
+.bloco {
+    display: none;
+}
+
+.menu-mobile,
+.hamburger,
+.menu-mobile ul,
+.menu-mobile ul li {
+    display: none;
+}
+
+.menu-mobile label {
+    display: none;
+}
+
+.open-menu:checked~.menu-mobile {
+    transform: translateX(0);
+}
+
+.open-menu {
+    display: none;
+}
+
+.hamburguer {
+    display: none;
+}
+
+@media (max-width: 667px) {
+    body {
+        word-wrap: normal;
+        width: 100%;
+    }
+    .container {
+        min-height: 100%;
+        margin: 0;
+        width: 100%;
+    }
+    .slogan {
+        padding-top: 60px;
+        font-size: 14px;
+    }
+    .titulo {
+        font-size: 40px;
+        margin: 0;
+    }
+    .pg-principal {
+        padding: 0;
+    }
+    .sobre {
+        flex-direction: column;
+        width: 100%;
+    }
+    .sobre-colunas {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container-sobre {
+        width: 100%;
+    }
+    .sobre-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .sobre-nos-texto {
+        width: 100%;
+    }
+    .pg-principal-content {
+        height: 60%;
+        width: 100%;
+    }
+    .menu {
+        display: none;
+    }
+    .depoimentos {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;
+    }
+    .depoimentos-linha {
+        display: flex;
+        flex-direction: column;
+    }
+    .retangulo {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .especificacoes {
+        order: 2;
+    }
+    .nome,
+    .data {
+        padding-left: 50px;
+    }
+    .funcionalidades {
+        display: flex;
+        flex-direction: column;
+    }
+    .funcionalidades-content {
+        flex-direction: column;
+    }
+    .funcionalidades-divisao {
+        width: 100%;
+        order: 1;
+    }
+    .retangulo-funcionalidade {
+        margin-bottom: 50px;
+    }
+    .sessao-contato,
+    .sobre-colunas {
+        width: 100%;
+        align-self: center;
+        flex-direction: column-reverse;
+        margin-bottom: 100px;
+    }
+    .solucoes-content {
+        width: 100%;
+    }
+    .menu-mobile {
+        width: 320px;
+        min-height: 100vh;
+        position: absolute;
+        right: 0;
+        right: 0;
+        background: #fff;
+        transform: translateX(100%);
+        display: flex;
+    }
+    .menu-mobile ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .hamburger {
+        display: flex;
+    }
+}
